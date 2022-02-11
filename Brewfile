@@ -72,6 +72,8 @@ cask 'enpass'
 cask 'backblaze'
 cask 'poedit'
 cask 'postman'
+cask 'raycast'
+cast 'spectacle'
 
 # Quicklook
 cask 'qlmarkdown'
