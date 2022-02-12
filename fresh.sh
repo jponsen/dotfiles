@@ -20,11 +20,11 @@ rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Update Homebrew recipes
-brew update
+$(which brew) update
 
 # Install all our dependencies with bundle (See Brewfile)
-brew tap homebrew/bundle
-brew bundle --file $DOTFILES/Brewfile
+$(which brew) tap homebrew/bundle
+$(which brew) bundle --file $DOTFILES/Brewfile
 
 # Install PHP extensions with PECL
 pecl install imagick redis swoole xdebug
