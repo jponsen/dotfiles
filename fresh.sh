@@ -24,7 +24,7 @@ $(which brew) update
 
 # Install all our dependencies with bundle (See Brewfile)
 $(which brew) tap homebrew/bundle
-$(which brew) bundle --file $DOTFILES/Brewfile
+$(which brew) bundle --file $HOME/.dotfiles/Brewfile
 
 # Install PHP extensions with PECL
 pecl install imagick redis swoole xdebug
@@ -39,7 +39,7 @@ $HOME/.composer/vendor/bin/valet install
 mkdir $HOME/Sites
 
 # Symlink the Mackup config file to the home directory
-ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
+ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Set macOS preferences - we will run this last because this will reload the shell
-source $DOTFILES/.macos
+source $HOME/.dotfiles/.macos
