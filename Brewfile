@@ -70,7 +70,7 @@ cask 'backblaze'
 cask 'poedit'
 cask 'postman'
 cask 'raycast'
-cast 'spectacle'
+cask 'spectacle'
 
 # Quicklook
 cask 'qlmarkdown'
