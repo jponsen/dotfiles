@@ -38,6 +38,9 @@ $HOME/.composer/vendor/bin/valet install
 # Create a Sites directory
 mkdir $HOME/Sites
 
+# Create a Temporary directory
+mkdir $HOME/Temporary
+
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
