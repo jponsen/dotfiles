@@ -4,6 +4,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
+tap 'stripe/stripe-cli'
 
 # Binaries
 brew 'awscli'
@@ -12,12 +13,13 @@ brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'
 brew 'git'
-brew 'gnupg'
 brew 'grep'
 brew 'httpie'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'stripe/stripe-cli/stripe'
+brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
 
 # Spatie Medialibrary
@@ -29,6 +31,7 @@ brew 'gifsicle'
 
 # Development
 brew 'php'
+brew 'php@8.1'
 brew 'php@8.0'
 brew 'php@7.4'
 brew 'composer'
@@ -71,6 +74,7 @@ cask 'poedit'
 cask 'postman'
 cask 'raycast'
 cask 'spectacle'
+cask 'zwift'
 
 # Quicklook
 cask 'qlmarkdown'
